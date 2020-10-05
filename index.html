@@ -16,16 +16,35 @@
 	<body>
 		<header>
 			<div class="wrapper">
-				<div class="logo-search">
-					<img class="pull-left" src="img/logo.png" />
-				</div>
-
-				<form method="POST" action="index.html">
-					<input type="search" required class="search">
-					<input type="submit" name="submit" value="Rechercher" class="submit">
-				</form>
-				<div class="user">
-				    <a href="#">Luke Chesser</a>
+				<div class="container">
+					<div class="row">
+						<div class="col-2">
+							<div class="logo-search">
+								<img class="pull-left" src="img/logo.png" />
+							</div>
+						</div>
+						<div class="col-8">
+							<form method="POST" action="index.html">
+								<input type="search" required class="search">
+								<input type="submit" name="submit" value="Rechercher" class="submit">
+							</form>
+						</div>
+						<div class="col-2">
+							<div class="dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												Luke Chesser
+				     			  </a>
+											
+												
+								</button>
+								<div class="dropdown-menu">
+								  <a class="dropdown-item" href="#">Ma page</a>
+								  <a class="dropdown-item" href="#">Qui suis-je</a>
+								  <a class="dropdown-item" href="#">Me contacter</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -34,7 +53,8 @@
 		<div class="container">
 				<aside>
 					<div class="row">
-						<div class="col-sm-2">
+						<div class="col-lg-2">
+							
 							<h3>Browse</h3>
 							<nav class="browse">
 								<ul class="main">
